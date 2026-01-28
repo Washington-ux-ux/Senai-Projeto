@@ -1,5 +1,8 @@
 # Projeto do Senai Areias
 
+## **IMPORTANTE**
+- Necessario npm install sqlite3, npm install bcrypt e npm install express.
+
 ## 👥 Grupo
 - Washington Lyniker  
 - Antony Miguel  
