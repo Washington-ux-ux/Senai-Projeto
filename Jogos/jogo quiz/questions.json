@@ -1,0 +1,443 @@
+[
+    {
+        "question": "Qual tag HTML é usada para criar uma lista NÃO ordenada?",
+        "answers": [
+            { "text": "ol", "correct": false },
+            { "text": "ul", "correct": true },
+            { "text": "list", "correct": false },
+            { "text": "li", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual tag é usada para o MAIOR título no HTML?",
+        "answers": [
+            { "text": "h6", "correct": false },
+            { "text": "heading", "correct": false },
+            { "text": "h1", "correct": true },
+            { "text": "header", "correct": false }
+        ]
+    },
+    {
+        "question": "O que a sigla CSS significa?",
+        "answers": [
+            { "text": "Cascading Style Sheets", "correct": true },
+            { "text": "Creative Style System", "correct": false },
+            { "text": "Computer Style Sheets", "correct": false },
+            { "text": "Colorful Style Sheets", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual tag HTML é usada para criar um hyperlink (link)?",
+        "answers": [
+            { "text": "<link>", "correct": false },
+            { "text": "<href>", "correct": false },
+            { "text": "<a>", "correct": true },
+            { "text": "<url>", "correct": false }
+        ]
+    },
+    {
+        "question": "Em JavaScript, qual método seleciona um elemento pelo seu ID?",
+        "answers": [
+            { "text": "document.querySelector('#id')", "correct": false },
+            { "text": "document.getElementById('id')", "correct": true },
+            { "text": "document.getElementByClass('id')", "correct": false },
+            { "text": "document.select('id')", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual propriedade CSS é usada para alterar a cor do fundo de um elemento?",
+        "answers": [
+            { "text": "color", "correct": false },
+            { "text": "background-color", "correct": true },
+            { "text": "font-color", "correct": false },
+            { "text": "fill-color", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual atributo HTML especifica o caminho (URL) para uma imagem na tag <img>?",
+        "answers": [
+            { "text": "href", "correct": false },
+            { "text": "link", "correct": false },
+            { "text": "path", "correct": false },
+            { "text": "src", "correct": true }
+        ]
+    },
+    {
+        "question": "Em JavaScript, qual palavra-chave declara uma variável que PODE ter seu valor alterado?",
+        "answers": [
+            { "text": "let", "correct": true },
+            { "text": "const", "correct": false },
+            { "text": "string", "correct": false },
+            { "text": "static", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual é a tag HTML correta para inserir uma quebra de linha?",
+        "answers": [
+            { "text": "<break>", "correct": false },
+            { "text": "<br>", "correct": true },
+            { "text": "<lb>", "correct": false },
+            { "text": "<newline>", "correct": false }
+        ]
+    },
+    {
+        "question": "Como você escreve 'Olá, Mundo!' em um `alert` box do JavaScript?",
+        "answers": [
+            { "text": "msg('Olá, Mundo!')", "correct": false },
+            { "text": "alertBox('Olá, Mundo!')", "correct": false },
+            { "text": "console.log('Olá, Mundo!')", "correct": false },
+            { "text": "alert('Olá, Mundo!')", "correct": true }
+        ]
+    },
+    {
+        "question": "Qual propriedade CSS controla o tamanho do texto?",
+        "answers": [
+            { "text": "font-size", "correct": true },
+            { "text": "text-style", "correct": false },
+            { "text": "font-style", "correct": false },
+            { "text": "text-size", "correct": false }
+        ]
+    },
+    {
+        "question": "Em HTML, qual tag é usada para definir o 'rodapé' de um documento ou seção?",
+        "answers": [
+            { "text": "<bottom>", "correct": false },
+            { "text": "<section type='footer'>", "correct": false },
+            { "text": "<footer>", "correct": true },
+            { "text": "<end>", "correct": false }
+        ]
+    },
+    {
+        "question": "Em CSS, qual símbolo é usado para selecionar um elemento por sua 'id'?",
+        "answers": [
+            { "text": ".", "correct": false },
+            { "text": "#", "correct": true },
+            { "text": "*", "correct": false },
+            { "text": "&", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual tag HTML é usada para definir uma lista ordenada (numerada)?",
+        "answers": [
+            { "text": "<ul>", "correct": false },
+            { "text": "<li>", "correct": false },
+            { "text": "<list>", "correct": false },
+            { "text": "<ol>", "correct": true }
+        ]
+    },
+    {
+        "question": "Qual é a sintaxe correta para um comentário de UMA LINHA em JavaScript?",
+        "answers": [
+            { "text": "/ comentário /", "correct": false },
+            { "text": "/* comentário */", "correct": false },
+            { "text": "// comentário", "correct": true },
+            { "text": "# comentário", "correct": false }
+        ]
+    },
+    {
+        "question": "Em JavaScript, qual operador verifica igualdade de VALOR e TIPO (igualdade estrita)?",
+        "answers": [
+            { "text": "==", "correct": false },
+            { "text": "=", "correct": false },
+            { "text": "===", "correct": true },
+            { "text": "!=", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual tag HTML é usada semanticamente para agrupar os links de navegação?",
+        "answers": [
+            { "text": "<navigation>", "correct": false },
+            { "text": "<menu>", "correct": false },
+            { "text": "<div class\"nav\">", "correct": false },
+            { "text": "<nav>", "correct": true }
+        ]
+    },
+    {
+        "question": "Em CSS, qual símbolo é usado para selecionar elementos por 'classe'?",
+        "answers": [
+            { "text": "#", "correct": false },
+            { "text": "$", "correct": false },
+            { "text": "!", "correct": false },
+            { "text": ".", "correct": true }
+        ]
+    },
+    {
+        "question": "Qual tag HTML é usada para inserir uma imagem?",
+        "answers": [
+            { "text": "<pic>", "correct": false },
+            { "text": "<img>", "correct": true },
+            { "text": "<image>", "correct": false },
+            { "text": "<src>", "correct": false }
+        ]
+    },
+    {
+        "question": "Em JavaScript, qual método é usado para arredondar um número para o inteiro MAIS PRÓXIMO?",
+        "answers": [
+            { "text": "Math.round()", "correct": true },
+            { "text": "Math.ceil()", "correct": false },
+            { "text": "Math.floor()", "correct": false },
+            { "text": "Math.random()", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual propriedade CSS torna o texto todo em MAIÚSCULAS?",
+        "answers": [
+            { "text": "text-transform: uppercase;", "correct": true },
+            { "text": "font-style: uppercase;", "correct": false },
+            { "text": "text-case: upper;", "correct": false },
+            { "text": "text-decoration: uppercase;", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual tag HTML engloba todo o CONTEÚDO VISÍVEL de uma página web?",
+        "answers": [
+            { "text": "<head>", "correct": false },
+            { "text": "<html>", "correct": false },
+            { "text": "<body>", "correct": true },
+            { "text": "<container>", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual propriedade CSS é usada para deixar o texto em negrito?",
+        "answers": [
+            { "text": "font-style: bold;", "correct": false },
+            { "text": "font-weight: bold;", "correct": true },
+            { "text": "text-decoration: bold;", "correct": false },
+            { "text": "text-align: bold;", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual tag e atributo são usados para linkar um arquivo CSS externo?",
+        "answers": [
+            { "text": "<script src='...'>", "correct": false },
+            { "text": "<link rel='stylesheet' href='...'>", "correct": true },
+            { "text": "<style src='...'>", "correct": false },
+            { "text": "<css link='...'>", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual é a tag HTML correta para um campo de 'input' onde o utilizador pode digitar texto?",
+        "answers": [
+            { "text": "<input type='textfield'>", "correct": false },
+            { "text": "<input type='text'>", "correct": true },
+            { "text": "<input type='string'>", "correct": false },
+            { "text": "<textfield>", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual propriedade CSS é usada para alterar a fonte de um texto?",
+        "answers": [
+            { "text": "font-family", "correct": true },
+            { "text": "font-style", "correct": false },
+            { "text": "font-type", "correct": false },
+            { "text": "text-font", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual tag HTML é usada para definir metadados sobre o documento (como o 'charset' ou 'viewport')?",
+        "answers": [
+            { "text": "<meta>", "correct": true },
+            { "text": "<head>", "correct": false },
+            { "text": "<data>", "correct": false },
+            { "text": "<info>", "correct": false }
+        ]
+    },
+    {
+        "question": "Em CSS, qual propriedade é usada para controlar como os elementos se sobrepõem (qual fica 'em cima')?",
+        "answers": [
+            { "text": "layer", "correct": false },
+            { "text": "z-index", "correct": true },
+            { "text": "overlap", "correct": false },
+            { "text": "priority", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual método do JavaScript é usado para selecionar TODOS os elementos que correspondem a um seletor CSS?",
+        "answers": [
+            { "text": "document.getElementById()", "correct": false },
+            { "text": "document.querySelector()", "correct": false },
+            { "text": "document.getElementsByClass()", "correct": false },
+            { "text": "document.querySelectorAll()", "correct": true }
+        ]
+    },
+    {
+        "question": "Qual é a tag HTML correta para criar um campo de 'input' de botão de rádio (onde só uma opção pode ser marcada)?",
+        "answers": [
+            { "text": "type=\"radio\"", "correct": true },
+            { "text": "type=\"checkbox\"", "correct": false },
+            { "text": "type=\"select-one\"", "correct": false },
+            { "text": "type=\"option\"", "correct": false }
+        ]
+    },
+    {
+        "question": "Em JavaScript, qual símbolo é usado para o operador 'resto' (ou 'módulo'), que retorna o resto de uma divisão?",
+        "answers": [
+            { "text": "/", "correct": false },
+            { "text": "#", "correct": false },
+            { "text": "%", "correct": true },
+            { "text": "&", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual tag HTML é usada para criar uma tabela?",
+        "answers": [
+            { "text": "<table>", "correct": true },
+            { "text": "<tr>", "correct": false },
+            { "text": "<td>", "correct": false },
+            { "text": "<grid>", "correct": false }
+        ]
+    },
+    {
+        "question": "Em CSS, qual propriedade é usada para tornar o texto itálico?",
+        "answers": [
+            { "text": "font-weight: italic;", "correct": false },
+            { "text": "text-decoration: italic;", "correct": false },
+            { "text": "font-style: italic;", "correct": true },
+            { "text": "text-transform: italic;", "correct": false }
+        ]
+    },
+    {
+        "question": "Em JavaScript, qual método converte um objeto JSON numa string?",
+        "answers": [
+            { "text": "JSON.parse()", "correct": false },
+            { "text": "JSON.stringify()", "correct": true },
+            { "text": "JSON.toString()", "correct": false },
+            { "text": "JSON.convert()", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual tag HTML é usada para definir o título que aparece na aba do navegador?",
+        "answers": [
+            { "text": "<head>", "correct": false },
+            { "text": "<header>", "correct": false },
+            { "text": "<title>", "correct": true },
+            { "text": "<meta title='...'>", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual propriedade CSS é usada para controlar a altura de um elemento?",
+        "answers": [
+            { "text": "size", "correct": false },
+            { "text": "height", "correct": true },
+            { "text": "length", "correct": false },
+            { "text": "width", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual tag HTML é usada para criar uma linha numa tabela?",
+        "answers": [
+            { "text": "<td>", "correct": false },
+            { "text": "<th>", "correct": false },
+            { "text": "<tr>", "correct": true },
+            { "text": "<line>", "correct": false }
+        ]
+    },
+    {
+        "question": "Em CSS, qual propriedade é usada para controlar o tipo de marcador numa lista (ex: círculo, quadrado)?",
+        "answers": [
+            { "text": "list-style-type", "correct": true },
+            { "text": "list-marker", "correct": false },
+            { "text": "list-icon", "correct": false },
+            { "text": "marker-style", "correct": false }
+        ]
+    },
+    {
+        "question": "Em JavaScript, qual método converte uma string em JSON?",
+        "answers": [
+            { "text": "JSON.stringify()", "correct": false },
+            { "text": "JSON.toObject()", "correct": false },
+            { "text": "JSON.parse()", "correct": true },
+            { "text": "JSON.fromString()", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual tag HTML é usada para criar uma célula de dados (uma 'casa') numa tabela?",
+        "answers": [
+            { "text": "<tr>", "correct": false },
+            { "text": "<table>", "correct": false },
+            { "text": "<cell>", "correct": false },
+            { "text": "<td>", "correct": true }
+        ]
+    },
+    {
+        "question": "Em CSS, como se seleciona um elemento que está com o *cursor* do rato por cima?",
+        "answers": [
+            { "text": ":active", "correct": false },
+            { "text": ":focus", "correct": false },
+            { "text": ":hover", "correct": true },
+            { "text": ":selected", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual propriedade CSS é usada para alterar a cor do texto?",
+        "answers": [
+            { "text": "text-color", "correct": false },
+            { "text": "font-color", "correct": false },
+            { "text": "color", "correct": true },
+            { "text": "background-color", "correct": false }
+        ]
+    },
+    {
+        "question": "Em JavaScript, qual palavra-chave declara uma variável que NÃO PODE ter seu valor reatribuído?",
+        "answers": [
+            { "text": "let", "correct": false },
+            { "text": "var", "correct": false },
+            { "text": "static", "correct": false },
+            { "text": "const", "correct": true }
+        ]
+    },
+    {
+        "question": "Qual tag HTML é usada para incorporar um ficheiro de áudio?",
+        "answers": [
+            { "text": "<mp3>", "correct": false },
+            { "text": "<sound>", "correct": false },
+            { "text": "<audio>", "correct": true },
+            { "text": "<music>", "correct": false }
+        ]
+    },
+    {
+        "question": "Em CSS, qual propriedade é usada para controlar a ordem dos elementos num 'flex container'?",
+        "answers": [
+            { "text": "order", "correct": true },
+            { "text": "flex-direction", "correct": false },
+            { "text": "align-items", "correct": false },
+            { "text": "flex-order", "correct": false }
+        ]
+    },
+    {
+        "question": "Em HTML, qual tag é usada para definir um item numa lista (seja ela ordenada ou não ordenada)?",
+        "answers": [
+            { "text": "<item>", "correct": false },
+            { "text": "<li>", "correct": true },
+            { "text": "<ol>", "correct": false },
+            { "text": "<ul>", "correct": false }
+        ]
+    },
+    {
+        "question": "Em CSS, qual é o 'display' que faz um elemento ocupar a linha inteira e começar numa nova linha?",
+        "answers": [
+            { "text": "display: inline;", "correct": false },
+            { "text": "display: flex;", "correct": false },
+            { "text": "display: inline-block;", "correct": false },
+            { "text": "display: block;", "correct": true }
+        ]
+    },
+    {
+        "question": "Em JavaScript, qual método é usado para adicionar um 'ouvidor de eventos' (como um clique) a um elemento?",
+        "answers": [
+            { "text": ".onClick()", "correct": false },
+            { "text": ".addEventListener()", "correct": true },
+            { "text": ".attachEvent()", "correct": false },
+            { "text": ".listen()", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual tag HTML é usada para incorporar um vídeo numa página web?",
+        "answers": [
+            { "text": "<movie>", "correct": false },
+            { "text": "<media>", "correct": false },
+            { "text": "<video>", "correct": true },
+            { "text": "<source>", "correct": false }
+        ]
+    }
+]

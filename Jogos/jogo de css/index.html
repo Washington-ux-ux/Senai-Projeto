@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <div class="painel-controle">
+    <div class="texto-nivel">
+      <h2 id="titulo-nivel"> Carregando...</h2>
+      <p id="instrucao-nivel">...</p>
+    </div>
+    
+    <div class="botoes-navegacao">
+      <button id="btn-anterior" onclick="nivelAnterior()">Anterior</button>
+      <button id="btn-proximo" onclick="proximoNivel()">Próximo</button>
+    </div>
+  </div>
+
+    <div class="container">
+        
+        <div class="completo">
+            <div id="completoCSS" class="completoCSS"></div>
+            <textarea readonly id="textarea-gabarito" spellcheck="false"></textarea>
+        </div>
+
+        <div class="intersecao">
+            <img src="./assets/images/antony.jpg" alt="imagem de teste">
+            <img src="./assets/images/lyniker.jpg" alt="imagem de teste">
+            <img src="./assets/images/caio.png" alt="imagem de teste">
+            <img src="./assets/images/ruan.jpg" alt="imagem de teste">
+        </div>
+
+        <div class="incompleto">
+            <div id="incompletoCSS" class="incompletoCSS"></div>
+            <textarea id="textarea-jogador" spellcheck="false"></textarea>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="niveis.js"></script>
+</body>
+</html>

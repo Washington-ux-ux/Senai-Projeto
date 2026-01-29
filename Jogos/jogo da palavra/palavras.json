@@ -1,0 +1,312 @@
+[
+    {
+        "word": "COMPUTADOR",
+        "hint": "Dispositivo eletrônico usado para processar informações.",
+        "category": "Tecnologia"
+    },
+    {
+        "word": "ABACATE",
+        "hint": "Fruta verde com caroço grande e polpa cremosa.",
+        "category": "Frutas"
+    },
+    {
+        "word": "PIRÂMIDE",
+        "hint": "Monumento histórico.",
+        "category": "História"
+    },
+    {
+        "word": "VIOLINO",
+        "hint": "Instrumento musical de cordas.",
+        "category": "Música"
+    },
+    {
+        "word": "OCEANO",
+        "hint": "Imensa massa de água salgada que cobre a maior parte da Terra.",
+        "category": "Natureza"
+    },
+    {
+        "word": "BIBLIOTECA",
+        "hint": "Lugar onde você encontra livros para estudo ou lazer.",
+        "category": "Locais"
+    },
+    {
+        "word": "NAVEGADOR",
+        "hint": "Software usado para acessar a World Wide Web.",
+        "category": "Tecnologia"
+    },
+    {
+        "word": "ALGORITMO",
+        "hint": "Sequência de passos lógicos para executar uma tarefa.",
+        "category": "Tecnologia"
+    },
+    {
+        "word": "MORANGO",
+        "hint": "Fruta pequena e vermelha.",
+        "category": "Frutas"
+    },
+    {
+        "word": "MELANCIA",
+        "hint": "Fruta grande, verde por fora e vermelha por dentro.",
+        "category": "Frutas"
+    },
+    {
+        "word": "CASTELO",
+        "hint": "Construção medieval.",
+        "category": "História"
+    },
+    {
+        "word": "REVOLUÇÃO",
+        "hint": "Mudança drástica na estrutura política e social.",
+        "category": "História"
+    },
+    {
+        "word": "GUITARRA",
+        "hint": "Instrumento de seis cordas.",
+        "category": "Música"
+    },
+    {
+        "word": "ORQUESTRA",
+        "hint": "Grande grupo de músicos.",
+        "category": "Música"
+    },
+    {
+        "word": "MONTANHA",
+        "hint": "Grande elevação natural do terreno.",
+        "category": "Natureza"
+    },
+    {
+        "word": "VULCÃO",
+        "hint": "Estrutura geológica.",
+        "category": "Natureza"
+    },
+    {
+        "word": "MUSEU",
+        "hint": "Local onde se expõem obras de arte ou itens históricos.",
+        "category": "Locais"
+    },
+    {
+        "word": "RESTAURANTE",
+        "hint": "Estabelecimento onde se preparam e servem refeições.",
+        "category": "Locais"
+    },
+    {
+        "word": "FUTEBOL",
+        "hint": "Esporte extremamente popular.",
+        "category": "Esportes"
+    },
+    {
+        "word": "BASQUETE",
+        "hint": "Esporte muito famoso nos Estados Unidos.",
+        "category": "Esportes"
+    },
+    {
+        "word": "ASTRONOMIA",
+        "hint": "Ciência que estuda os corpos celestes.",
+        "category": "Ciência"
+    },
+    {
+        "word": "MÉDICO",
+        "hint": "Profissional responsável por pessoas.",
+        "category": "Profissões"
+    },
+    {
+        "word": "PROFESSOR",
+        "hint": "Profissional responsável pela futura geração.",
+        "category": "Profissões"
+    },
+    {
+        "word": "TECLADO",
+        "hint": "Dispositivo de entrada.",
+        "category": "Tecnologia"
+    },
+    {
+        "word": "PROGRAMAÇÃO",
+        "hint": "Processo de escrever instruções para um computador.",
+        "category": "Tecnologia"
+    },
+    {
+        "word": "BANANA",
+        "hint": "Fruta rica em potássio.",
+        "category": "Frutas"
+    },
+    {
+        "word": "LARANJA",
+        "hint": "Fruta cítrica.",
+        "category": "Frutas"
+    },
+    {
+        "word": "VIKING",
+        "hint": "Guerreiros nórdicos.",
+        "category": "História"
+    },
+    {
+        "word": "FARAÓ",
+        "hint": "Título dado aos governantes do antigo Egito.",
+        "category": "História"
+    },
+    {
+        "word": "PIANO",
+        "hint": "Instrumento musical.",
+        "category": "Música"
+    },
+    {
+        "word": "SINFONIA",
+        "hint": "Composição musical longa para uma orquestra completa.",
+        "category": "Música"
+    },
+    {
+        "word": "DESERTO",
+        "hint": "Região com pouca chuva e vegetação.",
+        "category": "Natureza"
+    },
+    {
+        "word": "FLORESTA",
+        "hint": "Grande área coberta por árvores e vegetação densa.",
+        "category": "Natureza"
+    },
+    {
+        "word": "HOSPITAL",
+        "hint": "Local de tratamento de saúde.",
+        "category": "Locais"
+    },
+    {
+        "word": "AEROPORTO",
+        "hint": "Local onde se espera um meio de transporte aéreo.",
+        "category": "Locais"
+    }, 
+    {
+        "word": "NATAÇÃO",
+        "hint": "Esporte praticado na água.",
+        "category": "Esportes"
+    },
+    {
+        "word": "TÊNIS",
+        "hint": "Esporte normalmente jogado 1 contra 1 ou em duplas.",
+        "category": "Esportes"
+    },
+    {
+        "word": "BIOLOGIA",
+        "hint": "Ciência que estuda os seres vivos.",
+        "category": "Ciência"
+    },
+    {
+        "word": "QUÍMICA",
+        "hint": "Ciência que estuda a matéria e suas transformações.",
+        "category": "Ciência"
+    },
+    {
+        "word": "ENGENHEIRO",
+        "hint": "Profissional que projeta e constrói estruturas ou máquinas.",
+        "category": "Profissões"
+    },
+    {
+        "word": "COZINHEIRO",
+        "hint": "Profissional que prepara alimentos.",
+        "category": "Profissões"
+    },
+    {
+        "word": "LEÃO",
+        "hint": "Grande felino.",
+        "category": "Animais"
+    },
+    {
+        "word": "ELEFANTE",
+        "hint": "Grande animal.",
+        "category": "Animais"
+    },
+    {
+        "word": "BRASIL",
+        "hint": "Maior país da América do Sul.",
+        "category": "Países"
+    },
+    {
+        "word": "JAPÃO",
+        "hint": "País insular no leste da Ásia.",
+        "category": "Países"
+    },
+    {
+        "word": "CORAÇÃO",
+        "hint": "Órgão que bombeia sangue pelo corpo.",
+        "category": "Corpo Humano"
+    },
+    {
+        "word": "CÉREBRO",
+        "hint": "Órgão do sistema nervoso.",
+        "category": "Corpo Humano"
+    },
+    {
+        "word": "ORNITORRINCO",
+        "hint": "Monotremado endêmico da Austrália que possui bico e põe ovos.",
+        "category": "Animais"
+    },
+    {
+        "word": "CALEIDOSCÓPIO",
+        "hint": "Instrumento óptico que cria padrões coloridos e simétricos através de reflexos.",
+        "category": "Objetos"
+    },
+    {
+        "word": "JURISPRUDÊNCIA",
+        "hint": "Conjunto de decisões e interpretações das leis feitas pelos tribunais.",
+        "category": "Direito"
+    },
+    {
+        "word": "EFÊMERO",
+        "hint": "Algo que é passageiro, transitório, que dura pouco tempo.",
+        "category": "Conceito"
+    },
+    {
+        "word": "XILOFONE",
+        "hint": "Instrumento de percussão cujo nome vem do grego 'som da madeira'.",
+        "category": "Música"
+    },
+    {
+        "word": "QUARTZO",
+        "hint": "Mineral composto por sílica, o segundo mais abundante da Terra.",
+        "category": "Geologia"
+    },
+    {
+        "word": "HIERÓGLIFO",
+        "hint": "Caractere usado no sistema de escrita sagrada de antigas civilizações fluviais.",
+        "category": "História"
+    },
+    {
+        "word": "METAMORFOSE",
+        "hint": "Processo biológico de mudança drástica na estrutura física de um animal.",
+        "category": "Biologia"
+    },
+    {
+        "word": "LABIRINTO",
+        "hint": "Estrutura complexa de caminhos interligados projetada para confundir.",
+        "category": "Estruturas"
+    },
+    {
+        "word": "PARADIGMA",
+        "hint": "Um modelo ou padrão a ser seguido em determinada área do conhecimento.",
+        "category": "Filosofia"
+    },
+    {
+        "word": "CREPÚSCULO",
+        "hint": "Momento do dia em que o Sol está abaixo do horizonte, mas ainda há luz.",
+        "category": "Natureza"
+    },
+    {
+        "word": "VICISSITUDE",
+        "hint": "Sucessão de mudanças, alternância ou eventualidade da vida.",
+        "category": "Vocabulário"
+    },
+    {
+        "word": "ARQUIPÉLAGO",
+        "hint": "Conjunto de ilhas próximas umas das outras.",
+        "category": "Geografia"
+    },
+    {
+        "word": "HEMISFÉRIO",
+        "hint": "Cada uma das metades em que a Terra é dividida pela linha do Equador.",
+        "category": "Geografia"
+    },
+    {
+        "word": "ADJACENTE",
+        "hint": "Aquilo que está ao lado, contíguo ou vizinho.",
+        "category": "Geometria"
+    }
+]

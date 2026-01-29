@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo quiz - Vire mestre</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="menu">
+            <div class="menu-time">
+                <h2 style="color: red;">Tempo restante</h2>
+                <span id="time-display">00:00</span>
+            </div>
+            <div class="menu-score">
+                <h2 style="color: green;">Pontuação</h2>
+                <span id="score-display">0</span>
+            </div>
+            <div class="player">
+                <h2 style="color: blue;">Player</h2>
+                <img src="./image/lyniker.jpg" alt="imagem de teste">
+              
+            </div>
+        </div>
+
+        <div class="panel"> 
+            <div class="panel-question">
+                <h2 id="question-text">?</h2>
+            </div>
+                <div class="panel-answers">
+                    <button class="btn-answer">?</button>
+                    <button class="btn-answer">?</button>
+                    <button class="btn-answer">?</button>
+                    <button class="btn-answer">?</button>
+                    
+                    <button id="btn-restart" class="btn-answer correct" style="display: none; grid-column: span 2;">SIM</button>
+                </div>
+        </div>
+    </div>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>

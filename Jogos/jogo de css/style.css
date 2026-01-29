@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Fira+Code&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #121212; 
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+/* --- PAINEL SUPERIOR --- */
+.painel-controle {
+    height: 80px; 
+    background: #1e1e1e;
+    border-bottom: 1px solid #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    z-index: 10;
+    position: relative;
+    padding: 0 30px;
+}
+
+.painel-controle .texto-nivel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.painel-controle h2 { font-weight: 500; color: #fff; }
+.painel-controle p { color: #aaa; font-size: 14px; margin-top: 5px; }
+
+.painel-controle .botoes-navegacao {
+    display: flex;
+    gap: 15px;
+}
+
+/* --- CONTAINER PRINCIPAL DO JOGO --- */
+.container {
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 80px);
+    background-color: #181818;
+
+    padding: 20px;
+    gap: 20px; 
+}
+
+/* --- BLOCOS LATERAIS  --- */
+.completo, .incompleto {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    gap: 15px; 
+    height: 100%; 
+}
+
+/* --- ÁREA VISUAL DO JOGO (Caixa Branca) --- */
+.completoCSS, .incompletoCSS {
+    flex: 3;
+    height: 100%;
+    background-color: #f8f9fa; 
+    border-radius: 8px;
+    border: 1px solid #dae1e7;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+}
+
+/* --- Textarea --- */
+textarea {
+    flex: 2; 
+    height: 100%;
+    background-color: #282a36; 
+    color: #f8f8f2; 
+    border: 1px solid #44475a; 
+    border-radius: 8px;
+    padding: 15px; 
+    resize: none;
+    font-family: 'Fira Code', 'Consolas', monospace; 
+    font-size: 10px;
+    line-height: 1.5;
+    outline: none; 
+    white-space: pre;
+    overflow-x: auto;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+
+textarea:focus {
+    border-color: #bd93f9; 
+}
+
+/* --- COLUNA DO MEIO (Imagens) --- */
+.intersecao {
+    width: 90px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    border-radius: 12px; 
+    border: 1px solid #333;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+    height: 100%;
+}
+
+.intersecao img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #282a36; 
+    transition: all 0.3s ease;
+    opacity: 0.8; 
+}
+
+.intersecao img:hover {
+    transform: scale(1.15);
+    border-color: #bd93f9;
+    opacity: 1;
+}
+
+/* --- ESTILO FIXO DOS QUADRADOS DO JOGO*/
+#completoCSS, #incompletoCSS {
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    flex-shrink: 0; 
+    border: 2px solid rgba(255,255,255,0.5);
+}
+
+/* --- BOTÕES DO PAINEL DE CONTROLE --- */
+#btn-anterior, #btn-proximo {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#btn-anterior:hover, #btn-proximo:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+#btn-anterior:active, #btn-proximo:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(102, 126, 234, 0.4);
+}
+
+/* Estilo para quando o botão estiver bloqueado */
+button:disabled {
+    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+    color: #a0aec0;
+    cursor: not-allowed;
+    opacity: 0.7;
+    border: none;
+    transform: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+button:disabled:hover {
+    transform: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:not(:disabled):hover {
+    filter: brightness(1.2);
+}
+
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        height: auto; 
+        overflow-y: auto;
+    }
+
+    .painel-controle {
+        padding: 0 10px;
+    }
+
+    .completo, .incompleto {
+        height: 300px; 
+        width: 100%;
+    }
+    
+    .intersecao {
+        width: 100%;
+        height: 80px;
+        flex-direction: row; 
+        order: -1; 
+    }
+}

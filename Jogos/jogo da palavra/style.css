@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+:root {
+    --bg: #f6f7fb;
+    --bg-accent: #e3e8ff;
+    --card: #ffffff;
+    --text: #1f2544;
+    --muted: #6b708d;
+    --accent: #5468ff;
+    --accent-soft: #8bc6ff;
+    --tile-border: rgba(31, 37, 68, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    background: linear-gradient(135deg, var(--bg) 0%, #edf0ff 60%, #fefefe 100%);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+    padding: 0 5vw 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.letras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: linear-gradient(120deg, var(--bg-accent), var(--accent-soft));
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.letra {
+    width: 78px;
+    height: 78px;
+    border-radius: 18px;
+    background: var(--card);
+    border: 1px solid var(--tile-border);
+    box-shadow: 0 12px 24px rgba(31, 37, 68, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: var(--text);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.dica,
+.jogo {
+    padding: 1.75rem 2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(31, 37, 68, 0.08);
+    background: linear-gradient(135deg, #ffffff, #f7f8ff);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7), 0 18px 35px rgba(31, 37, 68, 0.08);
+}
+
+.jogo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.25rem;
+    align-items: stretch;
+}
+
+.dica h3 {
+    font-size: 1.5rem;
+    color: var(--accent);
+    margin-bottom: 0.35rem;
+}
+
+.dica p {
+    color: var(--muted);
+    line-height: 1.5;
+}
+
+.jogo input {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    text-align: center;
+    border-radius: 14px;
+    border: 1px solid var(--tile-border);
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    color: var(--text);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.jogo input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(84, 104, 255, 0.15);
+}
+
+.jogo button {
+    align-self: center;
+    padding: 0.85rem 2.5rem;
+    border-radius: 999px;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 12px 24px rgba(84, 104, 255, 0.25);
+}
+
+.jogo button:hover {
+    transform: translateY(-2px);
+}
+
+.jogo button:active {
+    transform: translateY(0);
+    box-shadow: 0 6px 12px rgba(84, 104, 255, 0.25);
+}
+
+.status-message {
+    margin-top: 0.75rem;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.final-guess {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 18px;
+    border: 1px dashed rgba(31, 37, 68, 0.2);
+    background: rgba(84, 104, 255, 0.06);
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.final-guess.is-hidden {
+    display: none;
+}
+
+.final-guess p {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.final-guess input {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    border-radius: 12px;
+    border: 1px solid var(--tile-border);
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.final-guess button {
+    padding: 0.75rem 2rem;
+    border-radius: 999px;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 10px 20px rgba(84, 104, 255, 0.25);
+}
+
+.final-guess button:hover {
+    transform: translateY(-2px);
+}
+
+.final-guess button:active {
+    transform: translateY(0);
+}
+
+.is-hidden {
+    display: none;
+}
+
+/* --- Botão para Chutar Palavra --- */
+.risk-button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ff9f43;
+    background: transparent;
+    color: #e67e22; /* Laranja escuro */
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.risk-button:hover {
+    background: #e67e22;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Estilo para o modo de chute ativo */
+.risk-mode-active .dica {
+    border-color: #e67e22;
+}
+
+@media (max-width: 640px) {
+    body {
+        padding: 1rem;
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+
+    .letra {
+        width: 50px;  
+        height: 50px;
+        font-size: 1.5rem;
+    }
+}

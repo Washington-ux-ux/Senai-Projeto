@@ -1,0 +1,263 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Menu principal */
+.menu {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    background: linear-gradient(145deg, #2c3e50, #1e2b38);
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid #f1c40f;
+}
+
+/* Itens do menu (tempo, pontuação e jogador) */
+.menu-time, .menu-score, .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 25px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    min-width: 200px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Títulos do menu */
+.menu h2 {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+/* Linha decorativa abaixo dos h2 */
+.menu h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #f1c40f, transparent);
+}
+
+/* span no menu */
+.menu span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #f1c40f;
+    text-shadow: 0 0 10px rgba(241, 196, 15, 0.5);
+    margin-top: 3px;
+    letter-spacing: 1px;
+}
+
+/* Estilo da foto do jogador */
+.player img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-top: 8px;
+    border-radius: 50%;
+    border: 3px solid #f1c40f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+/* Efeito proximidade com o cursor na foto */
+.player img:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+
+/* corpo do site */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url(./image/cinema.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* O quadro do jogo, onde fica as pergunta e as respostas */
+.panel {
+    background: #1a1a1a;
+    border: 15px solid #8B4513;
+    border-radius: 8px;
+    padding: 25px 35px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 900px;
+    min-height: 60vh;
+    color: #f0f0f0;
+    font-family: 'Courier New', monospace;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* área onde fica as perguntas */
+.panel-question {
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 1.6;
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    border: 2px solid #8B4513;
+    font-family: 'Courier New', monospace;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    letter-spacing: 1.5px;
+    width: 100%;
+    margin: 0 0 30px 0;
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* área onde fica as respostas */
+.panel-answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+}
+
+/* as respostas*/
+.panel-answers button {
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Cores diferentes para diferenciação das respostas*/
+.panel-answers button:nth-child(1) {
+    background: #3498db; 
+    border-color: #2980b9;
+}
+
+.panel-answers button:nth-child(2) {
+    background: #2ecc71; 
+    border-color: #27ae60;
+}
+
+.panel-answers button:nth-child(3) {
+    background: #e74c3c; 
+    border-color: #c0392b;
+}
+
+.panel-answers button:nth-child(4) {
+    background: #f39c12; 
+    border-color: #d35400;
+}
+
+/* Efeito hover das respostas */
+.panel-answers button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Efeito ao clicar na resposta */
+.panel-answers button:active {
+    transform: translateY(1px);
+}
+
+/* --- para o JavaScript --- */
+
+/* Estilo para a resposta CORRETA */
+.panel-answers button.correct {
+    background: #2ecc71 !important; 
+    border-color: #27ae60 !important;
+    color: white;
+}
+
+/* Estilo para a resposta INCORRETA */
+.panel-answers button.incorrect {
+    background: #e74c3c !important; /* Vermelho */
+    border-color: #c0392b !important;
+    color: white;
+}
+
+/* Estilo para botões desabilitados (depois de clicar) */
+.panel-answers button:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* Estilo para as respostas erradas que NÃO foram clicadas */
+.panel-answers button.wrong-answer {
+    background: #808080 !important; 
+    border-color: #505050 !important;
+    color: #ccc;
+    opacity: 0.7; 
+}
+
+/* para os botões do teclado como resposta */
+
+/* Cria uma "etiqueta" de tecla no canto do botão */
+.panel-answers button {
+    position: relative; /* Necessário para posicionar a letra */
+}
+
+.panel-answers button::before {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    padding: 2px 6px;
+    background: rgba(0,0,0,0.2);
+    font-family: 'Press Start 2P', cursive; 
+}
+
+/* Define qual letra aparece em cada botão */
+.panel-answers button:nth-child(1)::before { content: 'D'; }
+.panel-answers button:nth-child(2)::before { content: 'F'; }
+.panel-answers button:nth-child(3)::before { content: 'J'; }
+.panel-answers button:nth-child(4)::before { content: 'K'; }
+
+/* Efeito visual quando a tecla é pressionada */
+.panel-answers button.active-key {
+    transform: translateY(2px);
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+    filter: brightness(1.2);
+}
