@@ -2,6 +2,7 @@
 
 ## **IMPORTANTE**
 - Necessario npm install sqlite3, npm install bcrypt e npm install express.
+- Slide: https://docs.google.com/presentation/d/1CcUA_qo8hZHb30ycS2qYZhArVXMbRxcS/edit?usp=sharing&ouid=104108592953624013499&rtpof=true&sd=true
 
 ## 👥 Grupo
 - Washington Lyniker  
